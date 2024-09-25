@@ -40,6 +40,8 @@ keymap("n", "<S-l>", ":bnext <CR>", opts)
 keymap("n", "<S-h>", ":bprevious <CR>", opts)
 keymap("n", "<S-w>", ":bdelete <CR>", opts)
 
+-- Vimtex compile
+keymap("n", "<Leader>lt", ":VimtexCompile <CR>", opts)
 
 -- Visual --
 -- Stay in indent mode
