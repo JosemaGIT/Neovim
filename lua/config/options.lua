@@ -79,7 +79,7 @@ local options = {
     fileformats         = "unix,dos",
     -- fileignorecase      = true ¿?,
     filetype            = "",
-    fillchars           = "",
+    fillchars           = { eob = " " },
     fixendofline        = true,
     foldclose           = "",
     foldcolumn          = "auto",
@@ -336,3 +336,4 @@ for k, v in pairs(options) do
 end
 
 vim.cmd [[set iskeyword+=-]]
+vim.cmd "colorscheme vim"
